@@ -3,7 +3,7 @@ hmbMenu.onshow=function(x){
   hmbMenu.hidden = false
 }
 
-hmbMenu.onclick=function(s){
+hmbMenu.onclick=function(s){ 
     if (typeof(s) == "object") {
        return
     } else {
@@ -12,22 +12,22 @@ hmbMenu.onclick=function(s){
             ChangeForm(yourLists)
             break;
         case "View Lists":
-            ChangeForm(yourLists)
+            ChangeForm(newList)
             break;
-        case "Add to Current List":
+        case "Create New List":
             ChangeForm(newList)
             break;            
         case "Nearby Stores":
-            ChangeForm(googleAPI)
+            ChangeForm(findStore)
             break;
         case "Weather":
             ChangeForm(weather)
             break;
-        case "Random Recipe":
-            ChangeForm(recipeApi)
+        case "Coupons":
+            ChangeForm(coupons)
             break;
         }
-    }  
+    } 
 }
 
 

@@ -1,4 +1,4 @@
-//Array with call from Postman
+
 grocStores = ["Walmart","Hy-Vee: Broadway","ALDI: N 30th","Family Dollar: S 24th","ALDI: S 72nd","Family Dollar: 16th","Hy-Vee: Cass","Family Dollar: N 24th","Trader Joe's"]
 
 
@@ -147,7 +147,7 @@ function gotLocation(location, lat, long) {
   
   
 }
-    
+  
     //Dropdown to choose location
   
  
@@ -157,9 +157,9 @@ drpLocation.onclick = function(s){
     let tempMarker = ""  
    
    for (i = 0; i < myPlaces.length;i++) {
+        if (typeof(s) == "object") {
        
-       if (typeof(s) == "object")  {
-            return
+       return
       
       } else if (drpLocation.selection == myPlaces[i].name){
          
@@ -193,6 +193,10 @@ btnCL4.onclick = function() {
 
 
 
+
+
+btnClear.onclick=function(){
+  gmLocations.refresh()
 }
 
 

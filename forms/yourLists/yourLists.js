@@ -1,4 +1,10 @@
+let req = {}
+let query = ""
+let results = []
+let pw = "BiA375.ekh"  
+let netID = "ekh74960"
 let schema = "375groupb3"
+
 
 yourLists.onshow=function(){   
   hbgrPageNavYourList.hidden = false
@@ -101,8 +107,8 @@ hbgrPageNavYourList.onclick=function(s){
         case "Weather":
             ChangeForm(weather)
             break;
-        case "Random Recipe":
-            ChangeForm(recipeApi)
+        case "Coupons":
+            ChangeForm(coupons)
             break;
         }
     }  

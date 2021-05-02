@@ -32,7 +32,7 @@
   "id": "inptUser",
   "inputType": "text",
   "inputmode": "",
-  "left": 69,
+  "left": "124",
   "leftText": "Username",
   "mAll": "",
   "mBottom": "",
@@ -80,12 +80,12 @@
   "script": "",
   "size": "",
   "size-lg": 4,
-  "spellcheck": "false",
+  "spellcheck": "true",
   "step": "",
   "style": "",
   "top": 41,
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 303
+  "width": "250"
 }

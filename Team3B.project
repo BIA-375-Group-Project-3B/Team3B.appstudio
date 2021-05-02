@@ -31,6 +31,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "Form1",
+            "Form1.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "googleAPI",
             "googleAPI.json"
           ]
@@ -63,7 +71,8 @@
           "!type": "External",
           "file": [
             "forms",
-
+            "recipeAPI",
+            "recipeAPI.json"
           ]
         }
       ],
@@ -86,7 +95,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-
+      "firstform": "recipeAPI",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
