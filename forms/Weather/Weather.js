@@ -75,9 +75,10 @@ inptCity.onclick=function(){
 city = inptCity.value
 query = " "
 }
-/*
-hbrgrPageWeather.onclick=function(s){
-  if (typeof(s) == "object") {
+
+
+hbrWeatherLocation.onclick=function(s){
+    if (typeof(s) == "object") {
        return
     } else {
        switch(s) {
@@ -91,16 +92,14 @@ hbrgrPageWeather.onclick=function(s){
             ChangeForm(newList)
             break;            
         case "Nearby Stores":
-            ChangeForm(googleAPI)
+            ChangeForm(REAL_GOOGLE_API)
             break;
         case "Weather":
-            ChangeForm(weather)
+            ChangeForm(Weather)
             break;
-        case "Recipe":
-            ChangeForm(recipeAPI)
+        case "Random Recipe":
+            ChangeForm(recipeApi)
             break;
         }
-    }  
+    } 
 }
-  */
-
