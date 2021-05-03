@@ -37,6 +37,7 @@ btnCreateAcc.onclick = function() {
   }  
   if (req.status == 200) {
     console.log('the username and password were added')
+    ChangeForm(Login)
   } else {
     console.log('the ajax failed')
   }

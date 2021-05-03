@@ -199,7 +199,3 @@ hmbrPageNavNewList.onclick=function(s){
         }
     }    
 }
-
-
-
-
