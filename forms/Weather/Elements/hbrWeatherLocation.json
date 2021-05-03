@@ -30,7 +30,7 @@
   "icon": "menu",
   "iconTitle": "",
   "id": "hbrWeatherLocation",
-  "items": "!Heading\nItem 1\nItem 2\n-\n*Item 3 (disabled)",
+  "items": "Home\nView Lists\nAdd to Current List\nNearby Stores\nRandom Recipe\nWeather",
   "left": 20,
   "mAll": "",
   "mBottom": "",
