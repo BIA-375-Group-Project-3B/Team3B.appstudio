@@ -224,7 +224,7 @@ hmbMenu3.onclick=function(s){
             ChangeForm(REAL_GOOGLE_API)
             break;
         case "Weather":
-            ChangeForm(weather)
+            ChangeForm(Weather)
             break;
         case "Recipe":
             ChangeForm(recipeApi)

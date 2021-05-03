@@ -99,7 +99,7 @@ hbgrPageNavYourList.onclick=function(s){
             ChangeForm(REAL_GOOGLE_API)
             break;
         case "Weather":
-            ChangeForm(weather)
+            ChangeForm(Weather)
             break;
         case "Random Recipe":
             ChangeForm(recipeApi)

@@ -103,7 +103,7 @@ hbgrPageRecipeYourList.onclick=function(s){
             ChangeForm(googleAPI)
             break;
         case "Weather":
-            ChangeForm(weather)
+            ChangeForm(Weather)
             break;
         case "Recipe":
             ChangeForm(recipeAPI)
