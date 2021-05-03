@@ -82,6 +82,14 @@
             "REAL_GOOGLE_API",
             "REAL_GOOGLE_API.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Weather",
+            "Weather.json"
+          ]
         }
       ],
       "configxml": null,
